@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "path": "/", "title": "QuadraPass — Agenda da Fatec Franca" },
+    { "path": "/interno", "title": "QuadraPass — Painel interno" },
+    { "path": "/404", "title": "Página não encontrada" }
+  ]
+}

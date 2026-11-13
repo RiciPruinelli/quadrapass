@@ -1,0 +1,2 @@
+ALTER TABLE `reservations` DROP INDEX `reservations_slot_unique`;--> statement-breakpoint
+ALTER TABLE `reservations` ADD CONSTRAINT `reservations_slot_unique` UNIQUE(`reservationDate`,`startTime`,`status`);
