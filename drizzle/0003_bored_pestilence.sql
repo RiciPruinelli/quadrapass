@@ -1,0 +1,1 @@
+ALTER TABLE `reservations` DROP INDEX `reservations_slot_unique`;
