@@ -24,4 +24,13 @@ set LOCAL_ADMIN_USERNAME=admin
 set LOCAL_ADMIN_PASSWORD=ESCOLHA_UMA_SENHA_LOCAL
 ```
 
+No PowerShell, use a sintaxe de ambiente própria dele, no mesmo terminal em que iniciará `pnpm dev`:
+
+```powershell
+$env:LOCAL_ADMIN_USERNAME = "admin"
+$env:LOCAL_ADMIN_PASSWORD = "SENHA_LOCAL"
+```
+
+Também é possível salvar esses nomes em `web/.env`, que é lido por `dotenv/config` e está excluído pelo `.gitignore` do projeto. Em qualquer caso, reinicie o servidor depois de definir as variáveis.
+
 The local session is signed with a random per-process key and expires after two hours. Keep the password out of source control and do not publish the app with a test password. For production, configure Manus OAuth and an approved administrative account.
