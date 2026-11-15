@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true
+=======
   "include": ["client/src/**/*", "shared/**/*", "server/**/*"],
   "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
   "compilerOptions": {
@@ -20,5 +25,6 @@
       "@/*": ["./client/src/*"],
       "@shared/*": ["./shared/*"]
     }
+>>>>>>> 397ac71f8fe0b47bdcea901e6ae41eeb38c0f262
   }
 }

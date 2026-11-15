@@ -1,4 +1,30 @@
 {
+<<<<<<< HEAD
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~58.0.23",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-qrcode-svg": "^6.3.52",
+    "react-native-svg": "15.16.0",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+=======
   "name": "quadrapass",
   "version": "1.0.0",
   "type": "module",
@@ -108,4 +134,5 @@
     "vitest": "^2.1.4"
   },
   "packageManager": "pnpm@10.18.0"
+>>>>>>> 397ac71f8fe0b47bdcea901e6ae41eeb38c0f262
 }
