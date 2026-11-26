@@ -1,0 +1,45 @@
+# Dependencies and local package-manager cache
+node_modules/
+.pnpm-store/
+
+# Expo and Metro generated files
+.expo/
+.metro-health-check*
+web-build/
+dist/
+expo-env.d.ts
+coverage/
+*.tsbuildinfo
+.work/
+
+# Local environment files (keep templates only)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated native projects (commit only after intentionally prebuilding)
+/android/
+/ios/
+.kotlin/
+
+# Signing keys and certificates
+*.orig.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# IDE, OS, debug and logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log*
+*.log
